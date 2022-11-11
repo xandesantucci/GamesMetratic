@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    /* background: linear-gradient(rgba(41, 40, 40, 0.8),rgba(197, 191, 191, 0.8)), url('https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg'); */
+    background-color: black;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    color: rgba(218, 18, 18, 0.836);
+    text-shadow:white 1px -1px, white -1px 1px, white 1px 1px, white -1px -1px;
+}
+
+h2 {
+    color: rgba(218, 18, 18, 0.836);
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+h3 {
+    color: white;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+h4 {
+    color: white;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.nota {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: solid black 1px;
+    background: linear-gradient(rgba(197, 193, 193, 0.8),rgba(197, 193, 193, 0.8));
+    display: flex;
+    /*isso centraliza o texto horizontalmente*/
+    justify-content: center;
+  
+    /*isso centraliza o texto verticalmente*/
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+        /*isso centraliza o texto horizontalmente*/
+        justify-content: center;
+  
+        /*isso centraliza o texto verticalmente*/
+    align-items: center;
+
+    flex-wrap: wrap;
+    height: 95%;
+    width: 95%;
+    background-color: rgb(70, 68, 68);
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+.dashes {
+    height: 200px;
+    width: 200px;
+    /* background-color: #01a501; */
+    color: white;
+    border-radius: 20px;
+    box-shadow: -2px 2px 2px black;
+    border: solid black 1px;
+    display: flex;
+    /*isso centraliza o texto horizontalmente*/
+    justify-content: center;
+
+  
+    /*isso centraliza o texto verticalmente*/
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
